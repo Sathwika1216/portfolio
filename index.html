@@ -1,0 +1,124 @@
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sathwika — MERN Stack Developer</title>
+  <style>
+    :root{
+      --bg:#0d1117; --card:#161b22; --border:#26303d;
+      --text:#e6edf3; --muted:#8b949e; --accent:#4f9cff; --accent2:#3fb950;
+    }
+    *{margin:0;padding:0;box-sizing:border-box}
+    body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;
+      background:var(--bg);color:var(--text);line-height:1.6}
+    .wrap{max-width:900px;margin:0 auto;padding:0 20px}
+    a{color:var(--accent);text-decoration:none}
+    /* Hero */
+    header{padding:80px 0 60px;text-align:center}
+    header h1{font-size:2.6rem;font-weight:700;margin-bottom:12px}
+    header .tag{font-size:1.25rem;color:var(--accent);font-weight:600;margin-bottom:16px}
+    header p{color:var(--muted);max-width:600px;margin:0 auto 28px;font-size:1.05rem}
+    .btns{display:flex;gap:14px;justify-content:center;flex-wrap:wrap}
+    .btn{padding:11px 22px;border-radius:8px;font-weight:600;font-size:.95rem;
+      border:1px solid var(--border);transition:.2s}
+    .btn.primary{background:var(--accent);color:#fff;border-color:var(--accent)}
+    .btn.primary:hover{opacity:.9}
+    .btn.ghost{color:var(--text)}
+    .btn.ghost:hover{border-color:var(--accent);color:var(--accent)}
+    /* Sections */
+    section{padding:44px 0;border-top:1px solid var(--border)}
+    h2{font-size:1.5rem;margin-bottom:22px}
+    .about p{color:var(--muted);font-size:1.05rem}
+    /* Projects */
+    .card{background:var(--card);border:1px solid var(--border);border-radius:12px;
+      padding:24px;margin-bottom:20px;transition:.2s}
+    .card:hover{border-color:var(--accent)}
+    .card h3{font-size:1.25rem;margin-bottom:8px}
+    .card .stack{color:var(--accent2);font-size:.85rem;font-weight:600;margin-bottom:12px}
+    .card p{color:var(--muted);margin-bottom:16px}
+    .card .links{display:flex;gap:16px;font-weight:600;font-size:.9rem}
+    /* Skills */
+    .skills{display:flex;flex-wrap:wrap;gap:10px}
+    .skill{background:var(--card);border:1px solid var(--border);
+      padding:7px 15px;border-radius:20px;font-size:.9rem;color:var(--muted)}
+    /* Footer */
+    footer{padding:44px 0 60px;border-top:1px solid var(--border);text-align:center}
+    footer p{color:var(--muted);margin-bottom:16px}
+  </style>
+  </head>
+  <body>
+  <div class="wrap">
+
+    <header>
+      <h1>Sathwika</h1>
+      <div class="tag">MERN Stack Developer</div>
+      <p>I build and deploy fast, responsive web apps — and fix the bugs that stop them from going live. Full-stack developer working with React, Node, Express
+  &amp; MongoDB.</p>
+      <div class="btns">
+        <a class="btn primary" href="mailto:sathwika122005@gmail.com">Email Me</a>
+        <a class="btn ghost" href="https://github.com/Sathwika1216" target="_blank">GitHub</a>
+      </div>
+    </header>
+
+    <section class="about">
+      <h2>About</h2>
+      <p>I'm a B.Tech (2nd year) student and full-stack developer. I've built and deployed production apps on Vercel, and I'm currently interning on DevOps and
+  distributed-training projects — so I'm as comfortable shipping and deploying apps as I am building them. I care about clean UI, performance, and code that
+  actually runs in production.</p>
+    </section>
+
+    <section>
+      <h2>Projects</h2>
+
+      <div class="card">
+        <h3>Food Bridge</h3>
+        <div class="stack">React · Node · Express · MongoDB</div>
+        <p>A full-stack donation platform that lets supermarkets and stores donate surplus packaged, unexpired food instead of throwing it away. Focused on
+  safety — only sealed, non-perishable packaged items (no cooked food) — it connects stores with those in need to cut down food waste.</p>
+        <div class="links">
+          <a href="https://food-bridge-mern-git-main-sathwika1216s-projects.vercel.app/" target="_blank">Live Demo →</a>
+          <a href="https://github.com/Sathwika1216" target="_blank">Code →</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <h3>Smart Hospital Queue Management System</h3>
+        <div class="stack">React · Node · Express · MongoDB</div>
+        <p>A real-time queue management system for hospitals that removes crowded waiting rooms. Patients get live queue positions and updates while staff
+  manage appointments from a clean dashboard — built with a focus on real-time updates and a responsive, easy-to-use interface.</p>
+        <div class="links">
+          <a href="https://smart-hospital-queue-m5s6.vercel.app/" target="_blank">Live Demo →</a>
+          <a href="https://github.com/Sathwika1216" target="_blank">Code →</a>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Skills</h2>
+      <div class="skills">
+        <span class="skill">React.js</span>
+        <span class="skill">Node.js</span>
+        <span class="skill">Express.js</span>
+        <span class="skill">MongoDB</span>
+        <span class="skill">JavaScript</span>
+        <span class="skill">REST APIs</span>
+        <span class="skill">Vercel Deployment</span>
+        <span class="skill">Responsive UI</span>
+        <span class="skill">Git &amp; GitHub</span>
+        <span class="skill">DevOps (learning)</span>
+      </div>
+    </section>
+
+    <footer>
+      <h2>Get in touch</h2>
+      <p>Have something to build, deploy, or fix? I reply fast.</p>
+      <div class="btns">
+        <a class="btn primary" href="mailto:sathwika122005@gmail.com">sathwika122005@gmail.com</a>
+        <a class="btn ghost" href="https://github.com/Sathwika1216" target="_blank">github.com/Sathwika1216</a>
+      </div>
+    </footer>
+
+  </div>
+  </body>
+  </html>
